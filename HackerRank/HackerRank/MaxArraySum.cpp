@@ -41,7 +41,7 @@ int maxSubsetSum(vector<int> arr) {
 	return max;
 }
 
-int main()
+int maxArraySum()
 {
 	ofstream fout(getenv("OUTPUT_PATH"));
 
