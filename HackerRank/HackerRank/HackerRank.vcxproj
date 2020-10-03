@@ -118,6 +118,7 @@
     <ClCompile Include="Candies.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaxArraySum.cpp" />
+    <ClCompile Include="NewYearChaoes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
