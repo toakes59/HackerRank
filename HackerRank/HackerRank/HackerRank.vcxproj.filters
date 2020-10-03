@@ -20,5 +20,8 @@
     <ClCompile Include="Candies.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NewYearChaoes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
