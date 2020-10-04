@@ -20,7 +20,7 @@
     <ClCompile Include="Candies.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NewYearChaoes.cpp">
+    <ClCompile Include="NewYearChaos.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

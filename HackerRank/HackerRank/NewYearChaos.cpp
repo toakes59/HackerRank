@@ -17,20 +17,20 @@ void minimumBribes(vector<int> q) {
 
 	for (int i = 0; i < q.size(); i++) {
 		if (q[i] > i + 3) {
-			tooChaotic = true;
-			break;
+			cout << "Too chaotic\n";
+			return;
 		}
-		else if (q[i] > i + 1) {
-			count = count + (q[i] - (i + 1));
+		for (int j = max(0, q[i] - 2); j < i; j++) {
+			if (q[j] > q[i]) {
+				count++;
+			}
 		}
+		/*else if(q[i]>i+1){
+			count=count+(q[i]-(i+1));
+		}*/
 	}
 
-	if (tooChaotic) {
-		cout << "Too chaotic\n";
-	}
-	else {
-		cout << count << endl;
-	}
+	cout << count << endl;
 }
 
 int main()
