@@ -115,10 +115,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Candies.cpp" />
+    <ClCompile Include="Helper\ChoseCategory.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MaxArraySum.cpp" />
-    <ClCompile Include="NewYearChaos.cpp" />
+    <ClCompile Include="Src\Candies.cpp" />
+    <ClCompile Include="Src\MaxArraySum.cpp" />
+    <ClCompile Include="Src\NewYearChaos.cpp" />
+    <ClCompile Include="Topics\Arrays\2DArrayDS.cpp" />
+    <ClCompile Include="Topics\Arrays\ArrayLeftRotation.cpp" />
+    <ClCompile Include="Topics\Arrays\ArrayManipulation.cpp" />
+    <ClCompile Include="Topics\Arrays\MinimumSwaps2.cpp" />
+    <ClCompile Include="Topics\DictionariesAndHashmaps\countTriplets.cpp" />
+    <ClCompile Include="Topics\DictionariesAndHashmaps\frequencyQueries.cpp" />
+    <ClCompile Include="Topics\DictionariesAndHashmaps\hashTablesRansomNote.cpp" />
+    <ClCompile Include="Topics\DictionariesAndHashmaps\sherlockAndAnagrams.cpp" />
+    <ClCompile Include="Topics\DynamicProgramming\Abbreviations.cpp" />
+    <ClCompile Include="Topics\GreedyAlgorithm\luckBalance.cpp" />
+    <ClCompile Include="Topics\GreedyAlgorithm\minimumAbsoluteDifferenceInAnArray.cpp" />
+    <ClCompile Include="Topics\RecursionAndBacktracking\recursionDavisStaircase.cpp" />
+    <ClCompile Include="Topics\RecursionAndBacktracking\recursionFibonacciNumbers.cpp" />
+    <ClCompile Include="Topics\Search\hashTablesIceCreamParlor.cpp" />
+    <ClCompile Include="Topics\Search\minimumTimeRequired.cpp" />
+    <ClCompile Include="Topics\Search\pairs.cpp" />
+    <ClCompile Include="Topics\Search\tripleSum.cpp" />
+    <ClCompile Include="Topics\Sorting\FraudulentActivityNotifications.cpp" />
+    <ClCompile Include="Topics\Sorting\markAndToys.cpp" />
+    <ClCompile Include="Topics\Sorting\sortingBubbleSort.cpp" />
+    <ClCompile Include="Topics\Sorting\sortingComparator.cpp" />
+    <ClCompile Include="Topics\Sorting\sortingInfo.cpp" />
+    <ClCompile Include="Topics\StacksAndQueues\balancedBrackets.cpp" />
+    <ClCompile Include="Topics\StringManipulation\alternatingCharacters.cpp" />
+    <ClCompile Include="Topics\StringManipulation\sherlockAndTheValidString.cpp" />
+    <ClCompile Include="Topics\StringManipulation\stringMakingAnagrams.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\enum.h" />
+    <ClInclude Include="Helper\ChoseCategory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

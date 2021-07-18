@@ -9,19 +9,150 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Topics">
+      <UniqueIdentifier>{941c57e2-5629-45b9-843a-32261d86c5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\Arrays">
+      <UniqueIdentifier>{eafbcf8a-8e9a-4667-b8c3-9a98dd4596ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\DictionariesAndHashmaps">
+      <UniqueIdentifier>{90c2414e-9726-423e-a36f-e233352f528a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\Sorting">
+      <UniqueIdentifier>{de47c9ac-3ebf-4de2-8dd2-539717e726ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\StringManipulation">
+      <UniqueIdentifier>{da4306a2-f641-4f43-8b29-8880daca9d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\GreedyAlgorithms">
+      <UniqueIdentifier>{bef050cd-46e6-4c3e-99ac-f16dfee23778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\Search">
+      <UniqueIdentifier>{8d6430a7-572d-4783-8b46-37fd4a519053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\DynamicProgramming">
+      <UniqueIdentifier>{97eb9f5d-b10c-49cf-8efa-ce84b017c710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\StacksAndQueues">
+      <UniqueIdentifier>{3184ce6a-e206-4b3c-b187-8956ba5a5eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\Graphs">
+      <UniqueIdentifier>{c095edae-a1d9-4feb-8884-9d429deedb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\Trees">
+      <UniqueIdentifier>{0ce7f32c-ca30-48b8-985d-3e6746344739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\LinkedLists">
+      <UniqueIdentifier>{2b633ca8-e662-4c98-91a5-302766bd947d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\RecursionAndBacktracking">
+      <UniqueIdentifier>{493f5970-49e1-4585-ae38-e79a605eb12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Topics\Miscallaneous">
+      <UniqueIdentifier>{14f6334e-ec1b-4f7b-9a76-7ecf7ea8c5d4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MaxArraySum.cpp">
+    <ClCompile Include="Helper\ChoseCategory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Candies.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Src\Candies.cpp">
+      <Filter>Topics\DynamicProgramming</Filter>
     </ClCompile>
-    <ClCompile Include="NewYearChaos.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Src\MaxArraySum.cpp">
+      <Filter>Topics\DynamicProgramming</Filter>
     </ClCompile>
+    <ClCompile Include="Src\NewYearChaos.cpp">
+      <Filter>Topics\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Arrays\2DArrayDS.cpp">
+      <Filter>Topics\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Arrays\ArrayLeftRotation.cpp">
+      <Filter>Topics\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Arrays\ArrayManipulation.cpp">
+      <Filter>Topics\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Arrays\MinimumSwaps2.cpp">
+      <Filter>Topics\Arrays</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\DictionariesAndHashmaps\countTriplets.cpp">
+      <Filter>Topics\DictionariesAndHashmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\DictionariesAndHashmaps\frequencyQueries.cpp">
+      <Filter>Topics\DictionariesAndHashmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\DictionariesAndHashmaps\hashTablesRansomNote.cpp">
+      <Filter>Topics\DictionariesAndHashmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\DictionariesAndHashmaps\sherlockAndAnagrams.cpp">
+      <Filter>Topics\DictionariesAndHashmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\GreedyAlgorithm\luckBalance.cpp">
+      <Filter>Topics\GreedyAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\GreedyAlgorithm\minimumAbsoluteDifferenceInAnArray.cpp">
+      <Filter>Topics\GreedyAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Sorting\markAndToys.cpp">
+      <Filter>Topics\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Sorting\sortingBubbleSort.cpp">
+      <Filter>Topics\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Search\hashTablesIceCreamParlor.cpp">
+      <Filter>Topics\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Search\minimumTimeRequired.cpp">
+      <Filter>Topics\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Search\pairs.cpp">
+      <Filter>Topics\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Search\tripleSum.cpp">
+      <Filter>Topics\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\RecursionAndBacktracking\recursionDavisStaircase.cpp">
+      <Filter>Topics\RecursionAndBacktracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\RecursionAndBacktracking\recursionFibonacciNumbers.cpp">
+      <Filter>Topics\RecursionAndBacktracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Sorting\sortingInfo.cpp">
+      <Filter>Topics\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\StacksAndQueues\balancedBrackets.cpp">
+      <Filter>Topics\StacksAndQueues</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\StringManipulation\alternatingCharacters.cpp">
+      <Filter>Topics\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\StringManipulation\sherlockAndTheValidString.cpp">
+      <Filter>Topics\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\StringManipulation\stringMakingAnagrams.cpp">
+      <Filter>Topics\StringManipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\DynamicProgramming\Abbreviations.cpp">
+      <Filter>Topics\DynamicProgramming</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Sorting\FraudulentActivityNotifications.cpp">
+      <Filter>Topics\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="Topics\Sorting\sortingComparator.cpp">
+      <Filter>Topics\Sorting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\enum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\ChoseCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
